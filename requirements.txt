@@ -1,0 +1,22 @@
+yt-dlp>=2024.8.1
+
+# STT/translate engines (install only the ones you plan to use)
+# Offline engine:
+faster-whisper>=1.0.0
+argostranslate>=1.9.0
+
+# API engine:
+openai>=1.40.0
+deep-translator>=1.11.4
+
+# Web app + desktop app UI
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+pywebview>=5.0
+
+# OCR auto blur-region detection (--blur-mode auto)
+easyocr>=1.7.0
+
+# AI voice-over dub (--tts-dub), reads the translated SRT aloud
+edge-tts>=7.0.0
